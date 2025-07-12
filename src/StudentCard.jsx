@@ -10,7 +10,7 @@ class StudentCard extends React.Component {
             grade: props.grade || "N/A",
             likes: props.likes || 0,
             liked: props.liked || false,
-            profilePicture: props.profilePicture || "/icons8-profile-50.png",
+            profilePicture: props.profilePicture || `${import.meta.env.BASE_URL}/icons8-profile-50.png`,
         };
     }
 
@@ -45,7 +45,7 @@ class StudentCard extends React.Component {
                             <div className="likes">
                                 Likes: {this.state.likes}
                                 <img 
-                                    src={this.state.liked ? "/icons8-heart-filled-50.png" : "/icons8-heart-50.png"} 
+                                    src={this.state.liked ? `${import.meta.env.BASE_URL}/icons8-heart-filled-50.png` : `${import.meta.env.BASE_URL}/icons8-heart-50.png`} 
                                     alt="Like Icon" 
                                     onClick={this.handleLikeClick} 
                                     style={{ cursor: 'pointer', marginLeft: '8px' }}

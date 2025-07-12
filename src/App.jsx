@@ -9,7 +9,7 @@ class App extends React.Component{
         let students = [
             { studentName: "John Doe", university: "Harvard", track: "Web Development", grade: 85, likes: 10 },
             { studentName: "Jane Smith", university: "MIT", track: "Data Science", grade: 90, likes: 5 },
-            { studentName: "Alice Johnson", university: "Stanford", track: "Machine Learning", grade: 88, likes: 8, profilePicture: "./images.jfif"},
+            { studentName: "Alice Johnson", university: "Stanford", track: "Machine Learning", grade: 88, likes: 8, profilePicture: `${import.meta.env.BASE_URL}/images.jfif`, liked: true },
             { studentName: "Bob Brown", university: "Yale", track: "Cybersecurity", grade: 80, likes: 3, liked: true },
             { studentName: "Emily Clark", university: "Princeton", track: "Web Development", grade: 92, likes: 12 },
             { studentName: "Michael Lee", university: "Columbia", track: "Data Science", grade: 87, likes: 7 },

@@ -23,18 +23,18 @@ class Header extends React.Component {
         return (
             <header>
                 <div className="logo">
-                    <img src="/icons8-student-male-48.png" alt="Logo" />
+                    <img src={`${import.meta.env.BASE_URL}/icons8-student-male-48.png`} alt="Logo" />
                     <div>Student Profile Dashboard</div>
                 </div>
 
                 {loggedIn ? (
                     <div className="Logout">
-                        <img src="./images.jfif" alt="User Icon" />
+                        <img src={`${import.meta.env.BASE_URL}/images.jfif`} alt="User Icon" />
                         <button onClick={this.handleAuthToggle}>Logout</button>
                     </div>
                 ) : (
                     <div className="Login">
-                        <img src="/icons8-profile-100.png" alt="User Icon" />
+                        <img src={`${import.meta.env.BASE_URL}/icons8-profile-100.png`} alt="User Icon" />
                         <button onClick={this.handleAuthToggle}>Login</button>
                     </div>
                 )}
