@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    min-height: 100vh;
+    flex: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1FCBD0;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px -4px rgba(0,0,0,0.12);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.logo img {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    transition: transform 0.4s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.logo:hover img {
+    transform: rotateY(180deg);
+}
+
+.Logout, .Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 12px;
+}
+
+.Logout button, .Login button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.4em 1.0em;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    background-color: #fff;
+    cursor: pointer;
+    position: absolute;
+    bottom: -43px;
+    transition: ease 0.25s;
+    -webkit-transition: ease 0.25s;
+    -moz-transition: ease 0.25s;
+    -ms-transition: ease 0.25s;
+    -o-transition: ease 0.25s;
+}
+
+.Logout button:hover, .Login button:hover {
+    border-color: #1FCBD0;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.Logout img, .Login img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
