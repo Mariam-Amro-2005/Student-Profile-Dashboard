@@ -37,8 +37,8 @@ The goal of this project was to build a small dashboard that displays a list of 
 
 ---
 
-## 📷 Demo (Optional)
-![Student Dashboard Demo](./assets/Student-Profile-Dashboard.gif)
+## 📷 Demo
+![Student Dashboard Demo](./src/assets/Student-Profile-Dashboard.gif)
 
 ---
 
