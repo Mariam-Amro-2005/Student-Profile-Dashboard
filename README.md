@@ -52,7 +52,7 @@ The goal of this project was to build a small dashboard that displays a list of 
 git clone https://github.com/Mariam-Amro-2005/Student-Profile-Dashboard.git
 
 # Navigate into the folder
-cd Student-Profile-Dashboard/vite-project
+cd Student-Profile-Dashboard
 
 # Install dependencies
 npm install
