@@ -1,69 +1,86 @@
 # 🎓 Student Profile Dashboard (React Class Component Based)
 
-This project was created as part of my **Phase 1 Frontend Assignment** with the Minders group. It’s my very first React project—set up with **Vite**—and focuses entirely on using **class components**, **JSX**, **props**, **state**, and **component composition**.
+This project was created as part of my **Phase 1 Frontend Assignment** with the Minders group.  
+It’s my first React project—set up using **Vite**—and focuses on mastering **class components**, **JSX**, **props**, **state**, and **component composition**.
 
-## 🛠️ Project Overview
+---
 
-The goal of this project was to build a small dashboard that displays a list of students and allows user interaction through buttons and state. It includes reusable components and basic interactivity.
+## 🌐 Live Demo
 
-### ✅ Requirements Implemented:
+[![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-2ea44f?logo=github&logoColor=white)](https://Mariam-Amro-2005.github.io/Student-Profile-Dashboard)
+
+👉 [View the Live Dashboard](https://Mariam-Amro-2005.github.io/Student-Profile-Dashboard/)
+
+---
+
+## 📷 Project Preview
+
+<p align="center">
+  <img src="./src/assets/Student-Profile-Dashboard.gif" alt="Student Dashboard Demo" width="600" />
+</p>
+
+---
+
+## 🛠️ Overview
+
+The goal of this project was to build a small dashboard that displays a list of students with their personal details and allows user interaction through buttons and state.
+
+It includes reusable components, interactivity (likes), and basic UI filtering using React’s component composition approach.
+
+---
+
+## ✅ Features Implemented
+
 - Built using **5 class components**:
   - `App`
   - `Header`
   - `StudentList`
   - `StudentCard`
   - `Footer`
-- Each component uses valid **JSX** with at least 3 HTML elements
-- Included an image with proper JSX `img` syntax
-- Props passed to each `StudentCard`:  
-  `name`, `university`, `track`, `grade`
-- Implemented **state and events**:
-  - Each card has a **"Like" button** that increments a counter
+- Valid **JSX** with at least 3 semantic elements per component
+- **Props** passed to each `StudentCard`:
+  - `name`, `university`, `track`, `grade`
+- Implemented **state and event handling**:
+  - Each card has a **Like** button with a working counter
 - Used **component composition**:
-  - `App` renders the layout with `Header`, `StudentList`, and `Footer`
-  - `StudentList` maps and renders multiple `StudentCard` components
+  - `App` renders `Header`, `StudentList`, and `Footer`
+  - `StudentList` maps and renders multiple `StudentCard`s
 
-### 🌟 Bonus Feature:
-- A dropdown in `App` to **filter students by track** (e.g., Frontend, Backend)
+### 🌟 Bonus Feature
+- Dropdown in `App` to **filter students by track** (e.g., Frontend, Backend)
 
 ---
 
 ## 🚀 Technologies Used
 
-- [React](https://reactjs.org/) (Class Components only)
-- [Vite](https://vitejs.dev/) for project setup and fast dev server
+- [React](https://reactjs.org/) – Class Components only
+- [Vite](https://vitejs.dev/) – Project setup and dev server
 - JSX, Props, State, Events
-- Vanilla CSS
+- Vanilla CSS for styling
 
 ---
 
-## 📷 Demo
-
-<p align="center">
-  <img src="./src/assets/Student-Profile-Dashboard.gif" alt="Student Dashboard Demo" />
-</p>
-
----
-
-## 📦 Installation & Running Locally
+## 📦 Getting Started Locally
 
 ```bash
 # Clone the repository
 git clone https://github.com/Mariam-Amro-2005/Student-Profile-Dashboard.git
 
-# Navigate into the folder
+# Navigate to the project folder
 cd Student-Profile-Dashboard
 
 # Install dependencies
 npm install
 
-# Start the development server
+# Run the development server
 npm run dev
 ```
-Then open your browser at http://localhost:5173
+
+Then open your browser at http://localhost:5173/Student-Profile-Dashboard
 
 ## 📚 What I Learned
 - How to set up a React project using Vite
-- How to structure a React app with class components
-- Working with props, state, and event handlers
-- Composing a page from reusable components
+- Creating a modular UI with class-based components
+- Handling props, state, and event listeners
+- Building interactive UIs with dynamic state updates
+- Using component composition to break down a page logically
