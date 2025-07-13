@@ -38,7 +38,10 @@ The goal of this project was to build a small dashboard that displays a list of 
 ---
 
 ## 📷 Demo
-![Student Dashboard Demo](./src/assets/Student-Profile-Dashboard.gif)
+
+<p align="center">
+  <img src="./src/assets/Student-Profile-Dashboard.gif" alt="Student Dashboard Demo" />
+</p>
 
 ---
 
